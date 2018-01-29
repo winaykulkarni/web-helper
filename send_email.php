@@ -3,8 +3,8 @@
 if((!empty($_POST['your-name']) && !empty($_POST['your-email']) && !empty($_POST['your-contactno'])))
 {
     $to = 'centralizedspace@gmail.com';
-    $subject = 'Appointment Request';
-    $message = '-:RK HOSPITAL VIJAYAPURA:-'.PHP_EOL.'--------------------------------------------------------------------------'.PHP_EOL.PHP_EOL.'Name: '.$_POST['your-name']. PHP_EOL .'EmailId: '.$_POST['your-email']. PHP_EOL .'Phone: '.$_POST['your-contactno'].PHP_EOL .'DOB: '.$_POST['your-dob']. PHP_EOL .'Appointment date: '.$_POST['your-appdate'].PHP_EOL .'Subject: '.$_POST['your-subject'].PHP_EOL .''. PHP_EOL ."Message: ".$_POST['your-message'];
+    $subject = 'App Request';
+    $message = '-:ABC Organization:-'.PHP_EOL.'--------------------------------------------------------------------------'.PHP_EOL.PHP_EOL.'Name: '.$_POST['your-name']. PHP_EOL .'EmailId: '.$_POST['your-email']. PHP_EOL .'Phone: '.$_POST['your-contactno'].PHP_EOL .'DOB: '.$_POST['your-dob']. PHP_EOL .'Appointment date: '.$_POST['your-appdate'].PHP_EOL .'Subject: '.$_POST['your-subject'].PHP_EOL .''. PHP_EOL ."Message: ".$_POST['your-message'];
 
     $headers = "MIME-Version: 1.0" . "\r\n";
     // $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
