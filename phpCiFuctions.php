@@ -68,16 +68,16 @@
       <?php 
       }  
 
-      Public function current_date($timestamp = true){
-          // DECLARE LIKE Y-m-d h:m:s FORMAT
-          $staticDate = date("Y-m-d h:m:s");
-          if($timestamp){
-              $time = strtotime($staticDate);
-              $currentDate = date('Y-m-d h:m:s',$time);
-              return $currentDate;
-          } else {
-              $time = strtotime($staticDate);
-              $currentDate = date('Y-m-d',$time);
-              return $currentDate;              
-          }
-      }
+    Public function current_date($timestamp = true){
+      // DECLARE LIKE Y-m-d h:m:s FORMAT
+        $staticDate = date("Y-m-d H:i:s");
+        if($timestamp){
+          $time = strtotime($staticDate);
+          $currentDate = date('Y-m-d H:i:s',$time);
+          return $currentDate;
+        } else {
+          $time = strtotime($staticDate);
+          $currentDate = date('Y-m-d',$time);
+          return $currentDate;              
+        }
+    }
