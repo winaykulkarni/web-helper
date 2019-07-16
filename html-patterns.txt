@@ -1,5 +1,7 @@
-// HTML Patterns: 
+// HTML Patterns:
 
 User name with 20 chars: ^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$
 Alpha Numeric: [a-zA-Z0-9+]{0,50}
 Phone number with 15 digit minimum 10: [0-9+]{10,15}
+
+Use it now...
